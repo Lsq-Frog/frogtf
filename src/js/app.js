@@ -15,10 +15,10 @@ var requestAnimFrame = (function(){
 })();
 
 // Create the canvas
-var canvas = document.getElementById("gameCanvas");
-var ctx = canvas.getContext("2d");
-document.getElementById('gameCanvas').width = document.body.clientWidth;
-document.getElementById('gameCanvas').height = document.body.clientHeight;
-var img = document.createElement("img")
-ctx.drawImage()
+var game = {
+
+
+
+}
+
 Map.draw(MapTwo, ctx);

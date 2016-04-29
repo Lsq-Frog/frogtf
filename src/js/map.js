@@ -36,13 +36,12 @@ var Map = {
 			oft = (document.body.clientHeight - document.body.clientWidth / 20 * 10)/2;
 			ofl = document.body.clientWidth / 20;
 		}
+
 		for(i = 0; i < 18;i++){
-			
 			for(j = 0;j<8;j++){
 				//画背景地图
-				ctx.D
 				if(map[j][i] == 0)Canvas.drawRect(ctx,i*w + ofl,j*w+oft,w,w,'red');
-                //画可以走的路
+				//画可以走的路
 				else Canvas.fillRect(ctx,i*w + ofl,j*w+oft,w,w,'black');
 			}
 		}

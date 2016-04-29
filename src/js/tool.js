@@ -1,6 +1,12 @@
 /**
  * Created by lai on 2016/4/29.
  */
+
+var canvas = document.getElementById("gameCanvas");
+var ctx = canvas.getContext("2d");
+document.getElementById('gameCanvas').width = document.body.clientWidth;
+document.getElementById('gameCanvas').height = document.body.clientHeight;
+
 //画布类
 var Canvas = {
     //清除画布
