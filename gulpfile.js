@@ -60,8 +60,8 @@ gulp.task('js', function() {
 
     gulp.src(jsSrc)
         .pipe(jshint())
-        .pipe(jshint.reporter('default'))
-        .pipe(concat('main.js'))
+        //.pipe(jshint.reporter('default'))
+        //.pipe(concat('main.js'))
         .pipe(gulp.dest(jsDst))
         .pipe(rename({ suffix: '.min' }))
         .pipe(uglify())
